@@ -12,9 +12,11 @@ import './App.css';
 import AllEvents from './Components/AllEvents';
 import NewEvent from './Components/NewEvent';
 import ViewEvent from './Components/ViewEvent';
+import ShoppingList from "./Components/Buttons";
 
 const Home = () => (
   <div className="ui container">
+    <ShoppingList />
     <AllEvents />
   </div>
 );
